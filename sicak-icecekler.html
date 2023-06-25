@@ -1,0 +1,1419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&family=Raleway:wght@300;400;500&family=Roboto:wght@300;400&family=Rubik:wght@300;400;500&family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="loading-screen align-items-center justify-content-center">
+      <img src="./logo.jpg" class="logo" />
+    </div>
+    <header id="tum-ekran">
+      <nav style="background-color: rgb(255, 187, 0);" id="nav-bar" class="navbar navbar-expand-lg ">
+        <a class="text-center navbar-brand bg fw-bolder" style="color: rgb(0, 0, 0);" href="">M O Z Z A</a>
+        <!-- <span ><a href="./mozza-main.html"><i style="color: rgba(255, 255, 255, 0.95);" class="fa-solid fa-turn-up fa-rotate-270"></i></a></span> -->
+      </nav>
+    </header>
+
+    <main id="tum-ekran" class="w-100">
+      <section>
+        <div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto mb-2 mt-2">
+        <div class="accordion accordion-flush" id="kahve-accordion">
+            <div class="card  rounded-5">
+              <button style="height: 9rem;" id="card-button"
+                class="rounded-4 accordion-button border-0  p-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="https://cdn.shopify.com/s/files/1/0222/3102/3716/files/soguk-kahve-nasil-yapilir.jpg?v=1628577402"
+                  alt="kahve-cesitleri"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                Kahve Çeşitlerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseOne"
+                class=" accordion-collapse collapse"
+                data-bs-parent="#kahve-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex justify-content-around">
+                    <div class="col-sm-6 text-center float-start">
+                      <div class="card border-0 text-white">Ekstra Şurup</div>
+                      <div class="text-white">+5 ₺</div>
+                    </div>
+                    <div class="vr text-white"></div>
+                    <div class="col-sm-6 text-center float-end">
+                      <div class="card text-white border-0">Ekstra Shot</div>
+                      <div class="text-white">+10 ₺</div>
+  
+                    </div>
+                  </div>
+                  <hr class="text-white">
+
+                  <div class="col-sm-6  text-white">* Extra şurup ve shot'ların fiyatları yukarıdadır</div>
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50  my-2">                     
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/kahveler/americano.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Americano
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">35 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/Cappucino.jpg"
+                          alt="cappuccino"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Cappuccino
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/filtre-kahve-1.jpg"
+                          alt="americano" width="564px" height="564px"
+                        />
+                        <div class="card-body ">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Filtre Kahve
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">35 ₺</span>
+                          </div>
+                          <!-- <small style="margin: -15px 0 0 2px;" class=" float-start text-white">Süt ilavesi   </small>
+                          <small style="margin: -15px 0 0 5px;" class="float-end text-white">5 ₺ </small> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50  my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/black-eye.jpg"
+                          alt="black-eye"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Black Eye
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">35 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50  my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/cortado.jpg"
+                          alt="cortado"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Cortado
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">45 ₺</span>
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/espresso.jpg"
+                          alt="Espresso"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Espresso
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">20 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/double-espresso.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Espresso
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">20 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/latte.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Latte
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">40 ₺</span>
+                            <span id="soguk">45 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/flat-white.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Flat White
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">45 ₺</span>
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/caramel-macchiato.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Caramel Macchiato
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">45 ₺</span>
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/macchiato.png"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Macchiato
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">40 ₺</span>
+                            <span id="soguk">45 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/mocha.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Mocha
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">50 ₺</span>
+                            <span id="soguk">55 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/salespresso.jpg"
+                          alt="americano"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Salespresso
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">50 ₺</span>
+                            <span id="soguk">55 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto my-2">
+        <div class="accordion accordion-flush" id="cay-accordion">
+            <div class="card rounded-5">
+              <button
+                style="height: 9rem;"
+                class="rounded-4 accordion-button border-0  p-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="true"
+                aria-controls="collapseTwo"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/cay-cesitlerimiz-1.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Çay Çeşitlerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#cay-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/hibiscus.jpg"
+                          alt="hibiscus"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Hibiscus
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/papatya.jpg"
+                          alt="papatya"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Papatya
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/ihlamur-1.jpg"
+                          alt="ıhlamur"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Ihlamur
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/orman-meyveli-cay.jpg"
+                          alt="orman-meyveli-cay"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Orman Meyveli
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/elma-tarcin.jpg"
+                          alt="elma tarçın"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Elma Tarçın
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/kusburnu.jpg"
+                          alt="Kuşburnu"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Kuşburnu
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/nane-limon.jpg"
+                          alt="Nane Limon"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Nane Limon
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/meyveli-kis-cayi.jpg"
+                          alt="meyveli-kis-cayi"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row d-block w-100 text-center card-title ">
+                            Meyveli Kış Çayı
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-flex align-items-start justify-content-around">
+                            <span class="" id="sicak">Sıcak</span>
+                            <span id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-flex align-items-start justify-content-around">
+                            <span id="sicak">30 ₺</span>
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/melisa-cayi.jpg"
+                          alt="melisa-cayi"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Melisa Çayı
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/ada-cayi.jpg"
+                          alt="ada-cayi"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Ada Çayı
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/form-cayi.jpg"
+                          alt="FORM ÇAYI"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Form Çayı
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto my-2">
+        <div class="accordion accordion-flush" id="milkshake-accordion">
+            <div class="card rounded-5">
+              <button
+              style="height: 10rem;"
+              class="rounded-4 accordion-button border-0  p-0"
+              type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven"
+                aria-expanded="true"
+                aria-controls="collapseSeven"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/milkshake-cesitlerimiz.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Milkshake Çeşitlerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse "
+                data-bs-parent="#milkshake-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/coco-choco-milkshake.jpg"
+                          alt="coco choco milkshake"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Coco Choco
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">60 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/chocolate-milkshake.jpg"
+                          alt="Çikolatalı Milkshake"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Çikolata
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">55 ₺</span>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/strawberry-milkshake.jpg"
+                          alt="strawberry milkshake"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Çilek
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">55 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/vanilla-milkshake.jpg"
+                          alt="vanilla milkshake"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Vanilya
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">55 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/caramel-milkshake.jpg"
+                          alt="caramel milkshake"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Karamel
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">55 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto my-2">
+        <div class="accordion accordion-flush" id="frozen-accordion">
+            <div class="card rounded-5">
+              <button
+              style="height: 10rem;"
+              class="rounded-4 accordion-button border-0  p-0"
+              type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="true"
+                aria-controls="collapseSix"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/frozen-cesitlerimiz.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Frozen Çeşitlerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse "
+                data-bs-parent="#frozen-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/orman-meyveli-frozen.jpg"
+                          alt="orman meyveli frozen"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Kırmızı Orman Meyveli
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/cilek-frozen.jpg"
+                          alt="strawberry-frozen"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Çilek
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                        </div>
+                      </div>                    
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/pineapple-frozen.png"
+                          alt="pineapple-frozen"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Ananas
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/mango-frozen.jpg"
+                          alt="mango-frozen"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Mango
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/lemon-frozen.jpg"
+                          alt="lemon-frozen"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Limon
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">50 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto my-2">
+        <div class="accordion accordion-flush" id="bubble-tea-accordion">
+            <div class="card rounded-5">
+              <button
+              style="height: 10rem;"
+              class="rounded-4 accordion-button border-0  p-0"
+              type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="true"
+                aria-controls="collapseFive"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/bubble-tea-cesitlerimiz.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Bubble Tea Çeşitlerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse "
+                data-bs-parent="#bubble-tea-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/caramel-bubble-tea.jpg"
+                          alt="caramel-bubble-tea"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Caramel
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">60 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/chocolate-bubble-tea.jpg"
+                          alt="chocolate-bubble-tea"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Chocolate
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">60 ₺</span>
+                          </div>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/lychee-bubble-tea.jpg"
+                          alt="lychee-bubble-tea"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Lychee
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">60 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto my-2">
+        <div class="accordion accordion-flush" id="turk-kahvesi-accordion">
+            <div class="card rounded-5">
+              <button
+              style="height: 10rem;"
+              class="rounded-4 accordion-button border-0  p-0"
+              type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="true"
+                aria-controls="collapseThree"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/turk-kahvesi-cesitlerimiz.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Türk Kahvesi Çeşitlerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse "
+                data-bs-parent="#turk-kahvesi-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/geleneksel-turk-kahvesi.jpg"
+                          alt="geleneksel-turk-kahvesi"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Geleneksel
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">25 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/geleneksel-turk-kahvesi.jpg"
+                          alt="damla-sakizli-turk-kahvesi"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Damla Sakızlı
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/geleneksel-turk-kahvesi.jpg"
+                          alt="dag-cilekli-turk-kahvesi"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Dağ Çilekli
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto mt-2 mb-4">
+        <div class="accordion accordion-flush" id="diger-sicak-accordion">
+            <div class="card rounded-5">
+              <button
+              style="height: 9rem;"
+              class="rounded-4 accordion-button border-0  p-0"
+              type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="true"
+                aria-controls="collapseFour"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/diger-icecekler.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Diğer İçeceklerimiz
+                </div>
+              </button>
+
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse "
+                data-bs-parent="#turk-kahvesi-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/beyoglu-2.png"
+                          alt="gazoz"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Beyoğlu Gazoz
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/lemonade.jpg"
+                          alt="limonata"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Lemonade
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">40 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/hot-chocolate.png"
+                          alt="sıcak çikolata"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Sıcak Çikolata
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">35 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/salep.jpg"
+                          alt="salep"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Salep
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">35 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/soda.jpg"
+                          alt="sıcak çikolata"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Soda
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">15 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/su.jpg"
+                          alt="su"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Su
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">10 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/churchill.jpg"
+                          alt="churcill"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Churchill
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-6 col-sm-10 col-md-10 col-lg-12 row mx-auto mt-2 mb-4">
+        <div class="accordion accordion-flush" id="bakery-accordion">
+            <div class="card rounded-5">
+              <button
+              style="height: 9rem;"
+              class="rounded-4 accordion-button border-0  p-0"
+              type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseEight"
+                aria-expanded="true"
+                aria-controls="collapseEight"
+              >
+                <img
+                  id="resim"
+                  class="position-relative card-img-top border-0 accordion"
+                  src="./kahveler/sıcaklar/bakery-cesitleri.jpg"
+                  alt="sicak-icecekler"
+                />
+
+                <div
+                  id="resim-yazisi"
+                  class="position-absolute  top-50 start-50 translate-middle text-center"
+                >
+                  Bakery
+                </div>
+              </button>
+
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse "
+                data-bs-parent="#bakery-accordion"
+              >
+                <div class="accordion-body p-2">
+                  <div class="d-flex flex-wrap" id="kahve-cards">
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/cookie.jpg"
+                          alt="cookie"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Cookie
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">15 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 ms-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/mozaik-pasta.jpg"
+                          alt="mozaik pasta"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Mozaik Pasta
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="soguk">Soğuk</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="soguk">20 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-6 w-50 mx-auto my-2">                 
+                      <div id="kahve-card" class="card rounded-4 border-0 me-2  my-2">
+                        <img
+                          class="p-3 rounded-5"
+                          src="./kahveler/sıcaklar/beyaz-cikolatali-brownie.jpg"
+                          alt="Beyaz Çikolatalı Brownie"
+                        />
+                        <div class="card-body">
+                          <div id="sicaklar-yazi" class="row w-100 text-center d-block card-title ">
+                            Beyaz Çikolatalı Brownie
+                          </div>
+                          <div id="sicaklar-alt-yazi" class="d-block text-center">
+                            <span class="" id="sicak">Sıcak</span>
+                          </div>
+                          <div id="sicaklar-fiyat" class="d-block text-center">
+                            <span id="sicak">30 ₺</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/93ce194177.js" crossorigin="anonymous"></script>
+  </body>
+</html>
