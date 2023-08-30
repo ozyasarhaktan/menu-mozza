@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "ad": "Hibiscus",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "2",
+        "ad": "Papatya",
+        "sicakFiyat": 30,
+        "sogukFiyat": "-"
+    },
+    {
+        "id": "3",
+        "ad": "Ihlamur",
+        "sicakFiyat": 30,
+        "sogukFiyat": "-"
+    },
+    {
+        "id": "4",
+        "ad": "Orman Meyveli",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "5",
+        "ad": "Elma Tarçın",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "6",
+        "ad": "Kuşburnu",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "7",
+        "ad": "Nane Limon",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "8",
+        "ad": "Meyveli Kış Çayı",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "9",
+        "ad": "Melisa Çayı",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "10",
+        "ad": "Ada Çayı",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    },
+    {
+        "id": "11",
+        "ad": "Form Çayı",
+        "sicakFiyat": 30,
+        "sogukFiyat": 40
+    }
+]

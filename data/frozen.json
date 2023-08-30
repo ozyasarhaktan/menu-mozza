@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "ad": "Kırmızı Orman Meyveli",
+        "fiyat": 60,
+        "aciklama": "Frozen çeşidi."
+    },
+    {
+        "id": "2",
+        "ad": "Çilek",
+        "fiyat": 60,
+        "aciklama": "Frozen çeşidi."
+    },
+    {
+        "id": "3",
+        "ad": "Ananas",
+        "fiyat": 60,
+        "aciklama": "Frozen çeşidi."
+    },
+    {
+        "id": "4",
+        "ad": "Mango",
+        "fiyat": 60,
+        "aciklama": "Frozen çeşidi."
+    },
+    {
+        "id": "5",
+        "ad": "Limon",
+        "fiyat": 60,
+        "aciklama": "Frozen çeşidi."
+    }
+]

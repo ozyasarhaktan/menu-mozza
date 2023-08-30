@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "ad": "Coco Choco",
+        "fiyat": 60,
+        "aciklama": "Milkshake çeşidi. Çikolata ve hindistan cevizi aromalı."
+    },
+    {
+        "id": "2",
+        "ad": "Çikolata",
+        "fiyat": 55,
+        "aciklama": "Milkshake çeşidi. Çikolata aromalı."
+    },
+    {
+        "id": "3",
+        "ad": "Çilek",
+        "fiyat": 55,
+        "aciklama": "Milkshake çeşidi. Çilek aromalı."
+    },
+    {
+        "id": "4",
+        "ad": "Vanilya",
+        "fiyat": 55,
+        "aciklama": "Milkshake çeşidi. Vanilya aromalı."
+    },
+    {
+        "id": "5",
+        "ad": "Karamel",
+        "fiyat": 55,
+        "aciklama": "Milkshake çeşidi. Karamel aromalı."
+    }
+]

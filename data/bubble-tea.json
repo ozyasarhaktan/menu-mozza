@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "ad": "Caramel",
+        "fiyat": 70,
+        "aciklama": "Bubble Tea çeşidi. Karamel ile hazırlanır."
+    },
+    {
+        "id": "2",
+        "ad": "Chocolate",
+        "fiyat": 70,
+        "aciklama": "Bubble Tea çeşidi. Çikolata ile hazırlanır."
+    },
+    {
+        "id": "3",
+        "ad": "Lychee",
+        "fiyat": 70,
+        "aciklama": "Bubble Tea çeşidi. Lychee meyvesi ile hazırlanır."
+    },
+    {
+        "id": "4",
+        "ad": "Passion Fruit",
+        "fiyat": 70,
+        "aciklama": "Bubble Tea çeşidi. Maracuya meyvesi ile hazırlanır."
+    },
+    {
+        "id": "5",
+        "ad": "Raspberry",
+        "fiyat": 70,
+        "aciklama": "Bubble Tea çeşidi. Lychee meyvesi ile hazırlanır."
+    }
+]

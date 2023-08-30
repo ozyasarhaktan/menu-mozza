@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://cdn.korzh.com/metroui/v4.5.1/css/metro-all.min.css"> -->
+<link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Comfortaa:wght@300&family=Qwitcher+Grypen:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>MOZZA COFFEE</title>
+  </head>
+  <body>
+
+    <div class="container mt-4" id="menu">
+      <div id="yukari-cik"><a href="#mozza"><i  class="fa-solid fa-caret-up" style="cursor: pointer;"></i></a></div>
+      <header class="mx-auto">
+        <div class="navbar-brand position-static d-flex justify-content-around align-items-baseline">
+          <div><a target="_blank" class="text-black" href="https://www.instagram.com/mozzacoffee.co/"><i class="fa-brands fa-instagram display-6"></i></a></div>
+          <div id="mozza" class="text-black fs-1 mb-4">
+            M O Z Z A
+          </div>
+          <div><button id="myBtn"><i class="fa-solid fa-location-dot" style="font-size: 1.5rem;"></i></button></div>
+        </div>
+        <div class="splide">
+          <div class="splide__track">
+            <ul class="splide__list text-decoration-none" >
+              <li class="splide__slide"><a href="#coffees" class="btn ">KAHVE</a></li>
+              <li class="splide__slide"><a href="#bubble-teas" class="btn">BUBBLE TEA</a></li>
+              <li class="splide__slide"><a href="#milkshakes" class="btn">MİLKSHAKE</a></li>
+              <li class="splide__slide"><a href="#frozens" class="btn">FROZEN</a></li>
+              <li class="splide__slide"><a href="#turkish-coffee" class="btn">TÜRK KAHVESİ</a></li>
+              <li class="splide__slide"><a href="#teas" class="btn">ÇAY</a></li>
+              <li class="splide__slide"><a href="#other-drinks" class="btn">OTHER</a></li>
+              <li class="splide__slide"><a href="#bakery" class="btn">BAKERY</a></li>
+              <li class="splide__slide"><a href="#ekstra" class="btn">EKSTRA</a></li>
+          </ul>
+          </div>
+
+        </div>
+      </header>
+      <div class="icecekler" id="coffees" class="p-3 rounded-3">
+        <table class="table-borderless w-100">
+          <thead id="kahve-baslik">
+            <tr>
+              <th class="display-6 col-md-8">KAHVELER</th>
+              <th class="col-md-2">Sıcak</th>
+              <th class="col-md-2">Soğuk</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class=" d-flex mt-4 resim-card">
+        <div class="p-2">
+          <img
+            id="cookie"
+            src="./resimler/cookie.jpeg"
+            class="object-fit-lg-contain col"
+            alt="cookie"
+          />
+        </div>
+        <div id="basliklar" class="text-wrap">
+          <!-- <div class="" id="baslik">Bu kahve başka</div> -->
+          <div class="" id="alt-baslik">Kahvemizi özel yapan şey, doğadan aldığı lezzeti fincanlarınıza katkısız bir şekilde sunması.</div>
+        </div>
+      </div>
+
+      <div class="icecekler" id="teas" class="p-3 mt-3">
+        <table class="table-borderless w-100">
+          <thead id="cay-baslik" class="mb-5">
+            <tr>
+              <th class="display-6 col-md-8">ÇAYLAR</th>
+              <div class="">
+                <th class="col-md-2">Sıcak</th>
+                <th class="col-md-2">Soğuk</th>
+              </div>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div
+       
+        class="mt-4 resim-card d-flex"
+      >
+        <div class="p-2">
+          <img
+            id="cay"
+            src="./resimler/cool-lime.jpeg"
+            class="object-fit-lg-contain col"
+            alt="cookie"
+          />
+        </div>
+        <div id="basliklar" class="text-wrap">
+          <div class="" id="baslik" style="font-size: 2.5rem">
+            Cool Lime Aşkına
+          </div>
+          <!-- <div class="" id="alt-baslik">Kahvemizi özel yapan şey, doğadan aldığı lezzeti fincanlarınıza katkısız bir şekilde sunması.</div> -->
+        </div>
+      </div>
+      <div class="icecekler" id="bubble-teas" class="p-3 mt-3">
+        <table class="table-borderless w-100">
+          <thead id="bubble-tea-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">BUBBLE TEA</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class=" d-flex mt-4 resim-card">
+        <div class="p-2">
+          <img
+            id="cookie"
+            src="./resimler/bubble-tea.jpeg"
+            class="object-fit-lg-contain col"
+            alt="bubble-tea"
+          />
+        </div>
+        <div id="basliklar" class="text-wrap">
+          <div class="" id="baslik">Serinleten Yaz</div>
+          <!-- <div class="" id="alt-baslik">Kahvemizi özel yapan şey, doğadan aldığı lezzeti fincanlarınıza katkısız bir şekilde sunması.</div> -->
+        </div>
+      </div>
+      <div class="icecekler" id="milkshakes" class="p-3 mt-3">
+        <table class="table-borderless w-100">
+          <thead id="milkshake-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">MİLKSHAKE</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class=" d-flex mt-4 resim-card">
+        <div class="p-2">
+          <img
+            id="cookie"
+            src="./resimler/karadut-latte.jpeg"
+            class="object-fit-lg-contain col"
+            alt="latte"
+          />
+        </div>
+        <div id="basliklar" class="text-wrap">
+          <div class="" id="baslik">Bu kahve başka</div>
+          <!-- <div class="" id="alt-baslik">Kahvemizi özel yapan şey, doğadan aldığı lezzeti fincanlarınıza katkısız bir şekilde sunması.</div> -->
+        </div>
+      </div>
+      <div class="icecekler" id="frozens" class="p-3 mt-3">
+        <table class="table-borderless w-100">
+          <thead id="frozen-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">FROZEN</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="icecekler" id="turkish-coffee" class="p-3 mt-3">
+        <table class="table-borderless w-100">
+          <thead id="turkish-coffee-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">TÜRK KAHVESİ</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="icecekler" id="other-drinks" class="p-3 mt-3">
+        <table class="table-borderless w-100">
+          <thead id="other-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">OTHER</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="icecekler" id="bakery" class="p-3 mt-3 mb-4">
+        <table class="table-borderless w-100">
+          <thead id="bakery-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">BAKERY</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div style="margin-bottom: 2.5rem;" class="icecekler" id="ekstra" class="p-3 mt-3 mb-4">
+        <table class="table-borderless w-100">
+          <thead id="ekstra-baslik" class="mb-5">
+            <tr>
+              <th class="display-6">Ekstra</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+
+    <div id="myPopup" class="popup">
+      <div class="popup-content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.120559134108!2d27.139443575009405!3d38.438684171825564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd9eb8e2a7df5%3A0xb96e7e96be9d8160!2sMozza%20coffee!5e0!3m2!1sen!2str!4v1693336691012!5m2!1sen!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <button id="closePopup" class="btn">
+                Close
+            </button>
+      </div>
+  </div>
+    
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <script src="https://kit.fontawesome.com/93ce194177.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=GoogleMapsApiKey&callback=initMap" type="text/javascript"></script>
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+      ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "weekly"});</script> -->
+  </body>
+</html>

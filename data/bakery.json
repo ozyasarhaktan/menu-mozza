@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "ad": "Cookie",
+        "fiyat": 20
+    },
+    {
+        "id": "2",
+        "ad": "San Sebastian Cheesecake",
+        "fiyat": 60
+    },
+    {
+        "id": "3",
+        "ad": "Çikolatalı Donat",
+        "fiyat": 50
+    },
+    {
+        "id": "4",
+        "ad": "Çikolatalı Berliner",
+        "fiyat": 50
+    },
+    {
+        "id": "5",
+        "ad": "Basil Sandviç",
+        "fiyat": 45
+    },
+    {
+        "id": "6",
+        "ad": "Üç Peynirli Sandviç",
+        "fiyat": 45
+    },
+    {
+        "id": "7",
+        "ad": "Hindi Fümeli Sandviç",
+        "fiyat": 50
+    }
+]

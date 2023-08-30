@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "ad": "Geleneksel",
+        "fiyat": 25
+    },
+    {
+        "id": "2",
+        "ad": "Damla Sakızlı",
+        "fiyat": 30
+    },
+    {
+        "id": "3",
+        "ad": "Dağ Çilekli",
+        "fiyat": 30
+    }
+]

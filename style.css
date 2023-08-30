@@ -1,0 +1,168 @@
+.btn {
+    background-color: #7A9D54;
+    color: white;
+    width: 5rem;
+    height: 3rem;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    text-align: center;
+    border-radius: 0;
+}
+.btn:hover {
+    background-color: #557335;
+    color: white;
+    box-shadow: 0 0 0 0 rgba(0,0,0,0.2), 0 4px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+.icecekler{
+    background-color: #faf8e5;
+    /* border-radius: 2%; */
+    padding: 1.10rem;
+    margin-top: 2rem;
+    /* border: 2px double black; */
+}
+
+img {
+    width: 200px;
+    height: 200px;
+     /* border-radius: .5rem; */
+}
+
+#mozza {
+    font-family:Arial, Helvetica, sans-serif;
+}
+/* *{
+    font-family: "Playfair Display", serif;
+    
+} */
+#basliklar{ 
+    margin-top: 1rem;
+    color:white;
+
+}
+/* @media only screen and (max-width: 600px) {
+    #basliklar{
+        font-size: 2rem;
+    
+    }
+  } */
+#baslik {
+    font-size: 3rem;
+    margin: 1.4rem 0 0 1rem;
+    font-family: "Qwitcher Grypen", serif;
+}
+#alt-baslik {
+    display: contents;
+    font-family: "Comfortaa", serif;
+    font-size: 1.0rem;
+
+}
+
+.resim-card {
+    background-color: #7A9D54;	
+    /* border-radius: .5rem; */
+}
+.resim-card > #cay{
+    background-color: #deb14c;
+    /* border-radius: .5rem; */
+}
+li .splide__slide {
+    margin-right: 0;
+}
+
+ .fa-caret-up {
+    background: #557335;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px 13px;
+    
+}
+html {
+    scroll-behavior: smooth;
+  }
+.splide__arrow--next{
+    right: -1rem;
+}
+
+.splide__arrow:disabled {
+    opacity: 1;
+}
+
+.splide__arrow{
+    height: 3rem!important;
+    background: #7A9D54;
+    border-radius: 0;
+}
+
+.splide__arrow--prev {
+    left: -1rem;
+}
+.splide__arrow:hover:not(:disabled) {
+    opacity: 1;
+}
+
+.splide__track {
+    /* margin: 2% 5%; */
+    background: #7A9D54;
+}
+
+#yukari-cik {
+    position: fixed;
+    top: 90%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+} 
+
+#map {
+display: none;
+}
+   iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.fa-location-dot {
+    cursor: pointer;
+}
+
+#myBtn {
+    border: 0;
+    background: transparent;
+}
+
+
+
+.popup {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+}
+.popup-content {
+    background-color: white;
+    margin: 30% auto;
+    padding: 10px;
+    border: 1px solid #888888;
+    width: 100%;
+    height: 35%;
+}
+.popup-content button {
+    margin: 0 auto;
+    border: 0;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.show {
+    display: block;
+}

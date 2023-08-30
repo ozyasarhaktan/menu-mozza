@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "ad": "Americano",
+        "sicakFiyat": 40,
+        "sogukFiyat": 45
+    },
+    {
+        "id": "2",
+        "ad": "Cappucino",
+        "sicakFiyat": 45,
+        "sogukFiyat": "-"
+    },
+    {
+        "id": "3",
+        "ad": "Filtre Kahve",
+        "sicakFiyat": 30,
+        "sogukFiyat": 30
+    },
+    {
+        "id": "3.1",
+        "ad": "Sütlü Filtre Kahve",
+        "sicakFiyat": 35,
+        "sogukFiyat": 35
+    },
+    {
+        "id": "4",
+        "ad": "Black Eye",
+        "sicakFiyat": 40,
+        "sogukFiyat": 45
+    },
+    {
+        "id": "5",
+        "ad": "Cortado",
+        "sicakFiyat": 55,
+        "sogukFiyat": 60
+    },
+    {
+        "id": "6",
+        "ad": "Espresso",
+        "sicakFiyat": 25,
+        "sogukFiyat": "-"
+    },
+    {
+        "id": "7",
+        "ad": "Double Espresso",
+        "sicakFiyat": 35,
+        "sogukFiyat": "-"
+    },
+    {
+        "id": "8",
+        "ad": "Latte",
+        "sicakFiyat": 50,
+        "sogukFiyat": 55
+    },
+    {
+        "id": "9",
+        "ad": "Flat White",
+        "sicakFiyat": 55,
+        "sogukFiyat": 60
+    },
+    {
+        "id": "10",
+        "ad": "Macchiato",
+        "sicakFiyat": 55,
+        "sogukFiyat": 60
+    },
+    {
+        "id": "11",
+        "ad": "Caramel Macchiato",
+        "sicakFiyat": 55,
+        "sogukFiyat": 60
+    },
+    {
+        "id": "12",
+        "ad": "Mocha",
+        "sicakFiyat": 60,
+        "sogukFiyat": 65
+    },
+    {
+        "id": "13",
+        "ad": "Salespresso",
+        "sicakFiyat": 60,
+        "sogukFiyat": 65
+    }
+]
